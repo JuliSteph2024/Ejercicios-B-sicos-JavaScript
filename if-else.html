@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Propuesto - Número par o impar</title>
+</head>
+<body>
+    <script>
+        let num1 = parseFloat(prompt("Ingresa un número:"));
+        let dividendo = 2;
+        //no iria let dividendo
+        let residuo = num1 % dividendo;
+        //no iria let residuo
+        if(residuo === 0) {
+            //if (num1 % 2 === 0)
+            alert(num1 + " es un número par.");
+        } else {
+            alert(num1 + " es un número impar.")
+        }
+    </script>
+</body>
+</html>
